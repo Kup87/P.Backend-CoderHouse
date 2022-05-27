@@ -1,16 +1,18 @@
 {
   "name": "entrega3-serverexpress",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.16"
+  },
+  "description": ""
 }
